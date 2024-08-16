@@ -28,7 +28,8 @@ const Register = () => {
     }
 
     return (
-        <div className='w-full md:w-2/3 mx-auto p-2'>
+        <div className='w-full md:w-2/3 mx-auto p-2 flex flex-col justify-center min-h-screen'>
+            <h2 className='text-3xl text-center mb-4'>Register now! to buy our products</h2>
             <form onSubmit={handleSubmit(onSubmit)} >
               {/* name field */}
               <div className="space-y-4">
