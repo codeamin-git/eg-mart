@@ -11,7 +11,7 @@ import AuthProvider from './provider/AuthProvider';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className='max-w-7xl mx-auto font-poppins'>
+    <div className='max-w-7xl mx-auto font-poppins border-x border-x-yellow-50'>
     <AuthProvider>
     <RouterProvider router={router} />
     <Toaster />
