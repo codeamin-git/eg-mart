@@ -2,16 +2,20 @@ import React from 'react';
 import useAuth from '../../hooks/useAuth';
 import { CiLogin } from "react-icons/ci";
 import logo from '/carts.png'
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     const {logout} = useAuth()
     const handleLogout = () => {
         logout()
     }
     const navLinks = <>
-    <li>Home</li>
+    <li><Link to='/'>Home</Link></li>
+    <li><Link to='/'>All Products</Link></li>
+    <li><Link to='/'>About Us</Link></li>
+    <li><Link to='/'>Contact Us</Link></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 border-b">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -44,8 +48,8 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <button onClick={handleLogout} className="btn p-1 rounded-xl">
-    Log Out <span><CiLogin className='text-xl text-yellow-100' /></span>
+    <button onClick={handleLogout} className="btn btn-outline p-1 rounded-lg">
+    Log Out <span><CiLogin className='text-2xl text-yellow-100' /></span>
     </button>
   </div>
 </div>
