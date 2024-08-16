@@ -29,7 +29,39 @@ const Register = () => {
 
     return (
         <div className='w-full md:w-2/3 mx-auto p-2'>
-
+            <form onSubmit={handleSubmit(onSubmit)} >
+              {/* name field */}
+              <div className="space-y-4">
+              <label className="font-medium">Name</label>
+            <input {...register("name", { required: true })} 
+            placeholder="@username" 
+            className="border w-full rounded-lg px-3 py-4" />
+            {errors.name && <span className="text-red-500 text-sm">This field is required</span>}
+              </div>
+              {/* email field */}
+              <div className="space-y-4 my-6">
+              <label className="font-medium">Email</label>
+            <input {...register("email", { required: true })} 
+            type="email" 
+            placeholder="Enter your email" 
+            className="border w-full rounded-lg px-3 py-4" />
+            {errors.email && <span className="text-red-500 text-sm">This field is required</span>}
+              </div>
+              {/* password field */}
+              <div className="relative space-y-4 my-6">
+              <label className="font-medium">Password</label>
+            <input {...register("password", { required: true })} 
+            type='password'
+            placeholder="Enter your password" 
+            className="border w-full rounded-lg px-3 py-4" />
+            {errors.password && <span className="text-red-500 text-sm">This field is required</span>}
+              </div>
+              {/* submit btn */}
+              <div className="w-2/3 mx-auto mt-6 mb-2">
+                <button type="submit" className="bg-blue-500 w-full rounded-lg px-3 py-4 text-white mb-3" >Sign up</button>
+                <p>Already Have an Account? <Link to='/login' className="text-blue-500 underline font-medium">Log in</Link></p>
+              </div>
+            </form>
         </div>
     );
 };

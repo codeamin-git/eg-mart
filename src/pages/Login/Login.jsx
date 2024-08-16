@@ -41,7 +41,8 @@ const Login = () => {
     }
   }
     return (
-        <div className='w-full md:w-2/3 mx-auto p-2'>
+        <div className='w-full md:w-2/3 mx-auto p-2 flex flex-col justify-center min-h-screen'>
+            <h2 className='text-3xl text-center mb-4'>Login now! to buy our products</h2>
             {/* google & fb button */}
             <div className="">
                 <button onClick={handleGoogleLogin} className="w-full flex items-center justify-center gap-2 px-12 py-3 rounded-lg shadow-lg bg-slate-50 text-black text-center">
@@ -76,7 +77,7 @@ const Login = () => {
               </div>
               {/* submit btn */}
               <div className="w-2/3 mx-auto mt-6 mb-2">
-                <button type="submit" className="bg-blue-500 w-full rounded-lg px-3 py-4 text-white mb-3" >Sign in</button>
+                <button type="submit" className="bg-blue-500 w-full rounded-lg px-3 py-4 text-white mb-3" >Log in</button>
                 <p>Don’t Have an Account? <Link to='/register' className="text-blue-500 underline font-medium">Create Account</Link></p>
               </div>
             </form>
