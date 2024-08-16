@@ -1,13 +1,12 @@
 import React from 'react';
-import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import useAuth from "../../../hooks/useAuth";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { FcGoogle } from "react-icons/fc";
+import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
-    const {signInUser, googleLogin, facebookLogin, setLoading} = useAuth()
+    const {signInUser, googleLogin, setLoading} = useAuth()
     const navigate = useNavigate();
     const from = '/';
 
@@ -42,10 +41,10 @@ const Login = () => {
     }
   }
     return (
-        <div className='w-full md:2/3 mx-auto'>
+        <div className='w-full md:w-2/3 mx-auto p-2'>
             {/* google & fb button */}
             <div className="">
-                <button onClick={handleGoogleLogin} className="flex items-center gap-2 px-12 py-3 rounded-lg shadow-lg bg-gradient-to-r from-[#E4E4E4] to-[white]">
+                <button onClick={handleGoogleLogin} className="w-full flex items-center justify-center gap-2 px-12 py-3 rounded-lg shadow-lg bg-slate-50 text-black text-center">
                     <FcGoogle /> Google
                 </button>
             </div>
@@ -70,7 +69,7 @@ const Login = () => {
               <div className="space-y-4 my-6">
               <label className="font-medium">Password</label>
             <input {...register("password", { required: true })} 
-            type={showPassword ? 'text' : 'password'} 
+            type='password' 
             placeholder="Enter your password" 
             className="border w-full rounded-lg px-3 py-4" />
             {errors.password && <span className="text-red-500 text-sm">This field is required</span>}
