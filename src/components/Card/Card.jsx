@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({image,name,price,category,brand,date}) => {
     return (
-        <div className='shadow-md shadow-yellow-200 p-5'>
+        <div className='shadow-md shadow-yellow-200 p-5 rounded-lg'>
       <div className='size-36 md:size-48 lg:size-60 cursor-pointer hover:scale-110 mx-auto'>
         <img src={image} alt="Product" />
       </div>
