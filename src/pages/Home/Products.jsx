@@ -93,11 +93,15 @@ const Products = () => {
         </div>
 
         {/* price filtering */}
-        <div>
+        <div className='flex flex-col md:flex-row justify-evenly space-y-4 items-center'>
+            <div>
             <label>Min Price: </label>
-            <input type="number" name="minPrice" value={filters.minPrice} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
+            <input type="number" name="minPrice" placeholder='minimum' value={filters.minPrice} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
+            </div>
+            <div>
             <label>Max Price: </label>
-            <input type="number" name="maxPrice" value={filters.maxPrice} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
+            <input type="number" name="maxPrice" placeholder='maximum' value={filters.maxPrice} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
+            </div>
         </div>
 
         {/* Product List */}
