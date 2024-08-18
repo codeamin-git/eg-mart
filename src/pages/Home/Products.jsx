@@ -75,26 +75,29 @@ const Products = () => {
         </div>
         </div>
 
-        {/* Filters */}
+        {/* category and sort options */}
+        <div className='flex flex-col md:flex-row justify-evenly items-center space-y-4'>
         <div>
-            
-            <label>Category: </label>
-            <input type="text" name="category" value={filters.category} onChange={handleFilterChange} />
-            <label>Min Price: </label>
-            <input type="number" name="minPrice" value={filters.minPrice} onChange={handleFilterChange} />
-            <label>Max Price: </label>
-            <input type="number" name="maxPrice" value={filters.maxPrice} onChange={handleFilterChange} />
+        <label>Category: </label>
+        <input type="text" placeholder='beauty/sports/apparel/books...' name="category" value={filters.category} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
         </div>
-
-        {/* Sort Options */}
         <div>
-            <label>Sort By: </label>
-            <select value={sort} onChange={handleSortChange} className=''>
+        <label>Sort By: </label>
+            <select value={sort} onChange={handleSortChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'>
                 <option value="">Select</option>
                 <option value="price_asc">Price: Low to High</option>
                 <option value="price_desc">Price: High to Low</option>
                 <option value="date_asc">Date: Newest First</option>
             </select>
+        </div>
+        </div>
+
+        {/* price filtering */}
+        <div>
+            <label>Min Price: </label>
+            <input type="number" name="minPrice" value={filters.minPrice} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
+            <label>Max Price: </label>
+            <input type="number" name="maxPrice" value={filters.maxPrice} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
         </div>
 
         {/* Product List */}
