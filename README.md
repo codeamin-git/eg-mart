@@ -1,4 +1,3 @@
-```markdown
 # EG Mart
 
 EG Mart is a responsive shopping website built using React, Tailwind CSS, DaisyUI, and React Router DOM.
