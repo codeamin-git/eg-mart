@@ -8,7 +8,7 @@ const PrivateRoute = ({children}) => {
         return <Loader />
     }
     if(!user){
-        return <Navigate to='/'></Navigate>
+        return <Navigate to='/login'></Navigate>
     }
     return (
         <div>
