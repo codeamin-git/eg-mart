@@ -88,7 +88,7 @@ const Products = () => {
                 <option value="">Select</option>
                 <option value="price_asc">Price: Low to High</option>
                 <option value="price_desc">Price: High to Low</option>
-                <option value="date_asc">Date: Newest First</option>
+                <option value="date_desc">Date: Newest First</option>
             </select>
         </div>
         </div>
@@ -106,7 +106,7 @@ const Products = () => {
         </div>
 
         {/* Product List */}
-        <div>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
           {products?.map(product => (
             <Card key={product._id} image={product?.product_img} name={product?.product_name} price={product?.price} category={product?.category} brand={product?.brand_name} date={product?.creation_date} />
           ))}
