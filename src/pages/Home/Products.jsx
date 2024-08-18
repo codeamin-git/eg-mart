@@ -60,12 +60,12 @@ const Products = () => {
     };
 
     return (
-        <div className='mt-6 space-y-4'>
+        <div className='mt-6 space-y-4 md:w-2/3 w-full mx-auto'>
         <div className='flex flex-col md:flex-row justify-evenly space-y-4 items-center'>
           {/* Search Input */}
         <div>
         <label>Search: </label>
-        <input type="text" placeholder="product name" value={search} onChange={handleSearchChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
+        <input type="text" placeholder="product name" value={search} onChange={handleSearchChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100 w-full'/>
         </div>
 
         {/* brand */}
@@ -119,10 +119,10 @@ const Products = () => {
         </ul>
 
         {/* Pagination */}
-        <div className='flex justify-center items-center space-x-2 py-4'>
+        <div className='flex justify-center items-center flex-wrap gap-2 py-4'>
   {/* Previous Button */}
   <button
-    className={`px-4 py-2 rounded ${page === 1 ? 'bg-gray-500 cursor-not-allowed' : 'bg-black text-white hover:bg-gray-800'}`}
+    className={`px-3 py-2 rounded text-sm sm:text-base ${page === 1 ? 'bg-gray-500 cursor-not-allowed' : 'bg-black text-white hover:bg-gray-800'}`}
     onClick={() => setPage(page - 1)}
     disabled={page === 1}
   >
@@ -133,7 +133,7 @@ const Products = () => {
   {Array.from({ length: totalPages }, (_, i) => i + 1).map(p => (
     <button
       key={p}
-      className={`px-4 py-2 rounded ${page === p ? 'bg-gray-300 text-black' : 'bg-black text-white hover:bg-gray-800'}`}
+      className={`px-3 py-2 rounded text-sm sm:text-base ${page === p ? 'bg-gray-300 text-black' : 'bg-black text-white hover:bg-gray-800'}`}
       onClick={() => setPage(p)}
       disabled={page === p}
     >
@@ -143,13 +143,14 @@ const Products = () => {
 
   {/* Next Button */}
   <button
-    className={`px-4 py-2 rounded ${page === totalPages ? 'bg-gray-500 cursor-not-allowed' : 'bg-black text-white hover:bg-gray-800'}`}
+    className={`px-3 py-2 rounded text-sm sm:text-base ${page === totalPages ? 'bg-gray-500 cursor-not-allowed' : 'bg-black text-white hover:bg-gray-800'}`}
     onClick={() => setPage(page + 1)}
     disabled={page === totalPages}
   >
     Next
   </button>
 </div>
+
     </div>
     );
 };
