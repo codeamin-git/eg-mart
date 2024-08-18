@@ -63,7 +63,7 @@ const Products = () => {
         <div className='mt-6 space-y-4'>
         <div className='flex flex-col md:flex-row justify-evenly space-y-4 items-center'>
           {/* Search Input */}
-        <div className=''>
+        <div>
         <label>Search: </label>
         <input type="text" placeholder="product name" value={search} onChange={handleSearchChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
         </div>
@@ -91,9 +91,9 @@ const Products = () => {
             <label>Sort By: </label>
             <select value={sort} onChange={handleSortChange} className=''>
                 <option value="">Select</option>
-                <option value="priceLowToHigh">Price: Low to High</option>
-                <option value="priceHighToLow">Price: High to Low</option>
-                <option value="dateNewestFirst">Date: Newest First</option>
+                <option value="price_asc">Price: Low to High</option>
+                <option value="price_desc">Price: High to Low</option>
+                <option value="date_asc">Date: Newest First</option>
             </select>
         </div>
 
