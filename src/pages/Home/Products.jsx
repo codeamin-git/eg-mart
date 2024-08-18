@@ -61,7 +61,7 @@ const Products = () => {
 
     return (
         <div className='mt-6 space-y-4 md:w-2/3 w-full mx-auto'>
-        <div className='flex flex-col md:flex-row justify-evenly space-y-4 items-center'>
+        <div className='flex flex-col md:flex-row justify-between gap-2 space-y-4 items-center'>
           {/* Search Input */}
         <div>
         <label>Search: </label>
@@ -71,19 +71,19 @@ const Products = () => {
         {/* brand */}
         <div>
         <label>Brand: </label>
-        <input type="text" placeholder='apple/dior/gucci/chanel...' name="brand_name" value={filters.brand_name} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
+        <input type="text" placeholder='apple/dior/gucci/chanel...' name="brand_name" value={filters.brand_name} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100 w-full'/>
         </div>
         </div>
 
         {/* category and sort options */}
-        <div className='flex flex-col md:flex-row justify-evenly items-center space-y-4'>
+        <div className='flex flex-col md:flex-row justify-between gap-2 items-center space-y-4'>
         <div>
         <label>Category: </label>
-        <input type="text" placeholder='beauty/sports/apparel/books...' name="category" value={filters.category} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
+        <input type="text" placeholder='beauty/sports/apparel/books...' name="category" value={filters.category} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100 w-full'/>
         </div>
         <div>
         <label>Sort By: </label>
-            <select value={sort} onChange={handleSortChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'>
+            <select value={sort} onChange={handleSortChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100 w-full'>
                 <option value="">Select</option>
                 <option value="price_asc">Price: Low to High</option>
                 <option value="price_desc">Price: High to Low</option>
@@ -93,14 +93,14 @@ const Products = () => {
         </div>
 
         {/* price filtering */}
-        <div className='flex flex-col md:flex-row justify-evenly space-y-4 items-center'>
+        <div className='flex flex-col md:flex-row justify-between gap-2 space-y-4 items-center'>
             <div>
             <label>Min Price: </label>
-            <input type="number" name="minPrice" placeholder='minimum' value={filters.minPrice} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
+            <input type="number" name="minPrice" placeholder='minimum' value={filters.minPrice} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100 w-full'/>
             </div>
             <div>
             <label>Max Price: </label>
-            <input type="number" name="maxPrice" placeholder='maximum' value={filters.maxPrice} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100'/>
+            <input type="number" name="maxPrice" placeholder='maximum' value={filters.maxPrice} onChange={handleFilterChange} className='input input-bordered rounded-lg border-white transition duration-100 ease-in-out transform border focus:shadow-lg focus:shadow-yellow-100 w-full'/>
             </div>
         </div>
 
