@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Loader from '../../components/Loader/Loader';
+import Card from '../../components/Card/Card';
 
 const Products = () => {
     const [products, setProducts] = useState([]);
@@ -105,18 +106,11 @@ const Products = () => {
         </div>
 
         {/* Product List */}
-        <ul>
-            {products.map(product => (
-                <li key={product._id}>
-                    <img src={product.product_img} alt={product.product_name} width="100" />
-                    <h3>{product.product_name}</h3>
-                    <p>{product.description}</p>
-                    <p>Price: ${product.price}</p>
-                    <p>Brand: {product.brand_name}</p>
-                    <p>Category: {product.category}</p>
-                </li>
-            ))}
-        </ul>
+        <div>
+          {products?.map(product => (
+            <Card key={product._id} image={product?.product_img} name={product?.product_name} price={product?.price} category={product?.category} brand={product?.brand_name} date={product?.creation_date} />
+          ))}
+        </div>
 
         {/* Pagination */}
         <div className='flex justify-center items-center flex-wrap gap-2 py-4'>
