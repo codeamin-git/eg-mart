@@ -1,0 +1,402 @@
+[
+    {
+        "product_name": "Makeup Box",
+        "product_img": "https://img.freepik.com/free-photo/close-up-collection-make-up-beauty-products_23-2148620012.jpg?semt=ais_hybrid",
+        "brand_name": "Dior",
+        "description": "Uphold your beauty, boost your confidence!",
+        "price": 211.22,
+        "category": "Beauty",
+        "ratings": 2.2,
+        "creation_date": "2023-11-30 11:32:14"
+    },
+    {
+        "product_name": "Home Appliance",
+        "product_img": "https://img.freepik.com/free-photo/interior-decoration-inspired-by-mexican-folklore_23-2150711393.jpg?semt=ais_hybrid",
+        "brand_name": "Apollo Home",
+        "description": "Aesthetic home!",
+        "price": 294.93,
+        "category": "Home Decor",
+        "ratings": 3.9,
+        "creation_date": "2024-07-26 11:32:14"
+    },
+    {
+        "product_name": "Outfit",
+        "product_img": "https://img.freepik.com/free-photo/view-hawaiian-shirts-with-floral-print-smartwatch_23-2149366075.jpg?semt=ais_hybrid",
+        "brand_name": "Louis Vuitton",
+        "description": "Best fit for your attitude.",
+        "price": 40.94,
+        "category": "Apparel",
+        "ratings": 2.7,
+        "creation_date": "2023-11-27 11:32:14"
+    },
+    {
+        "product_name": "Story Books",
+        "product_img": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "A1 Notes",
+        "description": "Feed your brain.",
+        "price": 304.86,
+        "category": "Books",
+        "ratings": 1.4,
+        "creation_date": "2023-10-13 11:32:14"
+    },
+    {
+        "product_name": "Sherlock Holmes",
+        "product_img": "https://img.freepik.com/free-psd/book-hardcover-mockup-three-views_125540-226.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Shakespeare",
+        "description": "Best seller.",
+        "price": 72.86,
+        "category": "Books",
+        "ratings": 2.9,
+        "creation_date": "2024-01-07 11:32:14"
+    },
+    {
+        "product_name": "Mixer",
+        "product_img": "https://img.freepik.com/free-photo/electric-blender-make-fruit-juice-smoothie-wooden-kitchen-table-concept-healthy-diet_639032-193.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Home Blend",
+        "description": "Best for use save your energy.",
+        "price": 399.95,
+        "category": "Home Decor",
+        "ratings": 5.0,
+        "creation_date": "2024-04-25 11:32:14"
+    },
+    {
+        "product_name": "Tee's",
+        "product_img": "https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448751.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Brand Tees",
+        "description": "Awesome summer fit.",
+        "price": 118.6,
+        "category": "Apparel",
+        "ratings": 2.4,
+        "creation_date": "2023-10-17 11:32:14"
+    },
+    {
+        "product_name": "Tea Pot",
+        "product_img": "https://img.freepik.com/free-photo/fresh-fruit-bowl-rustic-wooden-table-generated-by-ai_188544-27299.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Apollo Home",
+        "description": "Best for holding tea and coffee.",
+        "price": 62.61,
+        "category": "Home Decor",
+        "ratings": 1.0,
+        "creation_date": "2024-03-22 11:32:14"
+    },
+    {
+        "product_name": "Toaster",
+        "product_img": "https://img.freepik.com/free-photo/freshly-baked-bread-modern-kitchen-table-generated-by-ai_188544-27841.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "A1 Gadgets",
+        "description": "Best for toasting bread.",
+        "price": 160.8,
+        "category": "Electronics",
+        "ratings": 2.2,
+        "creation_date": "2024-02-18 11:32:14"
+    },
+    {
+        "product_name": "Harry Potter",
+        "product_img": "https://img.freepik.com/free-photo/books-imagination-still-life_23-2149082226.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Bernaurd Harry",
+        "description": "Best selling of all time.",
+        "price": 442.38,
+        "category": "Books",
+        "ratings": 2.5,
+        "creation_date": "2023-12-07 11:32:14"
+    },
+    {
+        "product_name": "Playing Accessories",
+        "product_img": "https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Foot Hand",
+        "description": "This is a short description of Product 11.",
+        "price": 206.3,
+        "category": "Sports",
+        "ratings": 2.0,
+        "creation_date": "2023-10-01 11:32:14"
+    },
+    {
+        "product_name": "Oven",
+        "product_img": "https://img.freepik.com/free-photo/thanksgiving-turkey-oven-thanksgiving-day-christmas-dinner-ai-generative_123827-24245.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Apollo Home",
+        "description": "Easy to use.",
+        "price": 457.45,
+        "category": "Home Decor",
+        "ratings": 3.8,
+        "creation_date": "2024-07-21 11:32:14"
+    },
+    {
+        "product_name": "Ocean Aura",
+        "product_img": "https://img.freepik.com/free-photo/front-view-cologne-bottle-rotten-tree-branch-isolated-light-blue-background_140725-145204.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Chanel",
+        "description": "This is a scent of elegance.",
+        "price": 188.37,
+        "category": "Beauty",
+        "ratings": 4.0,
+        "creation_date": "2024-06-14 11:32:14"
+    },
+    {
+        "product_name": "Brush",
+        "product_img": "https://img.freepik.com/free-photo/two-cosmetic-brushes-pink-powder-dark-background_23-2148208997.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "B4Beauty",
+        "description": "Best brushes for your makeup kit.",
+        "price": 445.11,
+        "category": "Beauty",
+        "ratings": 2.4,
+        "creation_date": "2024-03-22 11:32:14"
+    },
+    {
+        "product_name": "Early Birds",
+        "product_img": "https://img.freepik.com/free-photo/open-flying-old-books_1232-2096.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "A1 Notes",
+        "description": "Boost your spirit.",
+        "price": 42.23,
+        "category": "Books",
+        "ratings": 1.8,
+        "creation_date": "2024-02-12 11:32:14"
+    },
+    {
+        "product_name": "Cobra",
+        "product_img": "https://img.freepik.com/free-photo/front-view-elegant-women-perfume-colored-flowers-beige-abstract-background_140725-145244.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Chanel",
+        "description": "Best perfume for men.",
+        "price": 479.6,
+        "category": "Perfume",
+        "ratings": 3.3,
+        "creation_date": "2024-05-13 11:32:14"
+    },
+    {
+        "product_name": "Jeans",
+        "product_img": "https://img.freepik.com/free-photo/fashion-men-accessories-new-trendy-blue-jeans_1357-154.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Gucci",
+        "description": "Jeans for genz's.",
+        "price": 91.87,
+        "category": "Apparel",
+        "ratings": 2.3,
+        "creation_date": "2024-08-09 11:32:14"
+    },
+    {
+        "product_name": "Ear Buds",
+        "product_img": "https://img.freepik.com/free-photo/wireless-earbuds-with-neon-cyberpunk-style-lighting_23-2151074255.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Boat",
+        "description": "Best sound quality.",
+        "price": 118.18,
+        "category": "Electronics",
+        "ratings": 3.0,
+        "creation_date": "2023-09-18 11:32:14"
+    },
+    {
+        "product_name": "Foot Ball",
+        "product_img": "https://img.freepik.com/free-photo/women-playing-football-team_23-2149044674.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Deer",
+        "description": "Best quality football.",
+        "price": 115.11,
+        "category": "Sports",
+        "ratings": 4.6,
+        "creation_date": "2024-08-05 11:32:14"
+    },
+    {
+        "product_name": "Rugby Ball",
+        "product_img": "https://img.freepik.com/free-photo/american-football-american-football-player-professional-sport-stadium_654080-256.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Deer",
+        "description": "Best quality ball.",
+        "price": 462.96,
+        "category": "Sports",
+        "ratings": 1.3,
+        "creation_date": "2024-05-13 11:32:14"
+    },
+    {
+        "product_name": "Makeup Kit",
+        "product_img": "https://img.freepik.com/free-photo/roses-make-up-products_23-2148598596.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Gucci",
+        "description": "Enhance your aura.",
+        "price": 366.92,
+        "category": "Beauty",
+        "ratings": 4.4,
+        "creation_date": "2024-03-16 11:32:14"
+    },
+    {
+        "product_name": "Head Phone",
+        "product_img": "https://img.freepik.com/free-photo/still-life-wireless-cyberpunk-headphones_23-2151072227.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Boss",
+        "description": "360 sounds and ear friendly.",
+        "price": 221.72,
+        "category": "Electronics",
+        "ratings": 2.4,
+        "creation_date": "2024-03-04 11:32:14"
+    },
+    {
+        "product_name": "Headset",
+        "product_img": "https://img.freepik.com/free-photo/black-headphones-digital-device_53876-97302.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Boss",
+        "description": "Best for sound and durability.",
+        "price": 465.67,
+        "category": "Electronics",
+        "ratings": 1.4,
+        "creation_date": "2024-01-25 11:32:14"
+    },
+    {
+        "product_name": "Best Makeup",
+        "product_img": "https://img.freepik.com/free-photo/assortment-different-cosmetics-with-copy-space-yellow-background_23-2148574386.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "B4Beauty",
+        "description": "Best makeup tools.",
+        "price": 364.17,
+        "category": "Beauty",
+        "ratings": 1.3,
+        "creation_date": "2024-05-01 11:32:14"
+    },
+    {
+        "product_name": "Gadgets",
+        "product_img": "https://img.freepik.com/free-photo/top-view-devices-supplies-composition_23-2149552421.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Apple",
+        "description": "Easy and best for gaming.",
+        "price": 312.28,
+        "category": "Electronics",
+        "ratings": 1.1,
+        "creation_date": "2024-04-20 11:32:14"
+    },
+    {
+        "product_name": "Shelf",
+        "product_img": "https://img.freepik.com/free-photo/wooden-plant-shelf-with-mixed-plants_53876-133216.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Apollo Home",
+        "description": "Decor your house.",
+        "price": 41.95,
+        "category": "Home Decor",
+        "ratings": 4.4,
+        "creation_date": "2023-09-05 11:32:14"
+    },
+    {
+        "product_name": "Aesthetic Shelf",
+        "product_img": "https://img.freepik.com/free-photo/home-decor-indoor-plant-shelf_53876-128857.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Apollo Home",
+        "description": "Best looking home appliance.",
+        "price": 124.66,
+        "category": "Home Decor",
+        "ratings": 4.8,
+        "creation_date": "2024-06-12 11:32:14"
+    },
+    {
+        "product_name": "Basket Ball",
+        "product_img": "https://img.freepik.com/free-photo/athlete-playing-sport-with-hand-drawn-doodles_23-2150036347.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Deer",
+        "description": "Best quality basketball.",
+        "price": 214.23,
+        "category": "Sports",
+        "ratings": 4.1,
+        "creation_date": "2023-08-21 11:32:14"
+    },
+    {
+        "product_name": "Serum",
+        "product_img": "https://img.freepik.com/free-photo/healthy-argan-oil-composition_23-2148989080.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Gucci",
+        "description": "For healthy skin.",
+        "price": 456.56,
+        "category": "Beauty",
+        "ratings": 4.7,
+        "creation_date": "2024-05-05 11:32:14"
+    },
+    {
+        "product_name": "Lipstick",
+        "product_img": "https://img.freepik.com/free-photo/top-view-lipsticks-arrangement_23-2148978113.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Gucci",
+        "description": "Best quality lip care.",
+        "price": 338.72,
+        "category": "Beauty",
+        "ratings": 3.8,
+        "creation_date": "2024-05-16 11:32:14"
+    },
+    {
+        "product_name": "Iphone 15 Pro Max",
+        "product_img": "https://img.freepik.com/free-photo/elegant-smartphone-composition_23-2149437072.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Apple",
+        "description": "Best phone of all time.",
+        "price": 62.0,
+        "category": "Electronics",
+        "ratings": 3.9,
+        "creation_date": "2023-12-16 11:32:14"
+    },
+    {
+        "product_name": "Detective Books",
+        "product_img": "https://img.freepik.com/free-photo/abstract-truth-concept-composition_23-2149051355.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "A1 Notes",
+        "description": "Know more about detectives.",
+        "price": 340.92,
+        "category": "Books",
+        "ratings": 4.4,
+        "creation_date": "2024-05-20 11:32:14"
+    },
+    {
+        "product_name": "Chairs",
+        "product_img": "https://img.freepik.com/free-photo/decorative-items-cozy-home-interior-wicker-straw-large-bag-decorative-elements_169016-4346.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Apollo Home",
+        "description": "Best for your home.",
+        "price": 436.84,
+        "category": "Home Decor",
+        "ratings": 2.7,
+        "creation_date": "2023-12-05 11:32:14"
+    },
+    {
+        "product_name": "Beauty Accessories",
+        "product_img": "https://img.freepik.com/free-photo/makeup-items-light-desk_23-2148181409.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "B4Beauty",
+        "description": "Best Product to look good.",
+        "price": 431.81,
+        "category": "Beauty",
+        "ratings": 2.9,
+        "creation_date": "2024-01-25 11:32:14"
+    },
+    {
+        "product_name": "Beauty Kits",
+        "product_img": "https://img.freepik.com/free-photo/collage-feminine-colourful-cosmetics-white-desk_23-2148181429.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "BrandC",
+        "description": "Best brushes for your makeup kit.",
+        "price": 419.77,
+        "category": "Beauty",
+        "ratings": 1.5,
+        "creation_date": "2024-04-09 11:32:14"
+    },
+    {
+        "product_name": "Curtain",
+        "product_img": "https://img.freepik.com/free-photo/curtain-with-sunlight_1339-4061.jpg?t=st=1723905750~exp=1723909350~hmac=1759855a3438940e5fcf016631a2dc07864fc83427def23a616289e715ab6079&w=900",
+        "brand_name": "Apollo Home",
+        "description": "Best fit for your window.",
+        "price": 328.08,
+        "category": "Home Decor",
+        "ratings": 4.2,
+        "creation_date": "2024-03-20 11:32:14"
+    },
+    {
+        "product_name": "Iphone 16 Pro Max",
+        "product_img": "https://img.freepik.com/free-photo/phone-14-right-side-arabic-themed-background_187299-35435.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Apple",
+        "description": "Latest iphone for flexing.",
+        "price": 377.81,
+        "category": "Electronics",
+        "ratings": 5.0,
+        "creation_date": "2024-06-23 11:32:14"
+    },
+    {
+        "product_name": "Tab",
+        "product_img": "https://img.freepik.com/free-photo/various-digital-devices-composition_23-2147864666.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Apple",
+        "description": "Best buy.",
+        "price": 244.34,
+        "category": "Electronics",
+        "ratings": 2.5,
+        "creation_date": "2024-01-23 11:32:14"
+    },
+    {
+        "product_name": "Best Shirts",
+        "product_img": "https://img.freepik.com/free-photo/close-up-flannel-shirt-detail_23-2149575327.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Louis Vuitton",
+        "description": "This is the best for your attitude.",
+        "price": 167.43,
+        "category": "Apparel",
+        "ratings": 3.2,
+        "creation_date": "2024-07-20 11:32:14"
+    },
+    {
+        "product_name": "Joggers",
+        "product_img": "https://img.freepik.com/free-photo/close-up-colourful-clothes-hangers_23-2148238074.jpg?ga=GA1.1.1398226431.1723899804&semt=ais_hybrid",
+        "brand_name": "Louis Vuitton",
+        "description": "Women joggers.",
+        "price": 431.08,
+        "category": "Apparel",
+        "ratings": 3.0,
+        "creation_date": "2024-05-08 11:32:14"
+    }
+]

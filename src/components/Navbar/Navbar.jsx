@@ -5,13 +5,11 @@ import logo from '/carts.png'
 import { Link } from 'react-router-dom';
 import Loader from '../Loader/Loader';
 const Navbar = () => {
-    const { user, logout, loading } = useAuth()
+    const { user, logout } = useAuth()
     const handleLogout = () => {
         logout()
     }
-    if(loading){
-        <Loader />
-    }
+
     const navLinks = <>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/'>All Products</Link></li>
